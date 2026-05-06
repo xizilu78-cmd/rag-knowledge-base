@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 环境配置
+.env
+.env.*
+!.env.example
+
+# 数据（原始/处理后的文件不进 git）
+data/raw/
+data/processed/
+
+# IDE
+.vscode/
+.idea/
+
+# 构建产物
+dist/
+build/
